@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | YourRoomie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+
+  <header class="site-header" id="site-header"></header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <p class="crumbs"><a href="index.html">Home</a> / Shop</p>
+        <h1>Shop Furniture</h1>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:30px">
+      <div class="container shop-layout">
+
+        <aside class="sidebar" id="sidebar">
+          <div class="filter-block">
+            <h4>Category</h4>
+            <div id="catFilters"></div>
+          </div>
+          <div class="filter-block">
+            <h4>Max price</h4>
+            <input type="range" id="priceRange" min="50" max="900" step="10" value="900">
+            <p class="price-label" id="priceLabel">Up to $900</p>
+          </div>
+          <button class="btn btn-outline btn-block" id="resetFilters">Reset filters</button>
+        </aside>
+
+        <div>
+          <div class="shop-top">
+            <p id="resultCount"></p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <button class="btn btn-outline filter-toggle" id="filterToggle">Filters</button>
+              <select id="sortSelect" aria-label="Sort products">
+                <option value="default">Sort: Featured</option>
+                <option value="low">Price: Low to High</option>
+                <option value="high">Price: High to Low</option>
+                <option value="rating">Top Rated</option>
+              </select>
+            </div>
+          </div>
+          <div class="product-grid" id="shopGrid"></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

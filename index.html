@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourRoomie | Make Your Home More Beautiful</title>
+  <meta name="description" content="YourRoomie - comfortable, simple furniture for your home.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+  <header class="site-header" id="site-header"></header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-wrap">
+          <img src="assets/images/hero.jpg" alt="Bright living room with a sofa and plants">
+          <div class="hero-text">
+            <span class="eyebrow">Live beautifully</span>
+            <h1>Make Your Home <em>More Beautiful</em> With YourRoomie</h1>
+            <p>Furniture that mixes comfort, style and function, so your home feels like a place you want to come back to.</p>
+            <div class="hero-btns">
+              <a href="shop.html" class="btn btn-primary">Shop Now &rarr;</a>
+              <a href="#deals" class="btn btn-outline">See Deals</a>
+            </div>
+          </div>
+        </div>
+        <div class="perks">
+          <div class="perk"><span class="ic" id="ic1"></span><div><strong>Free Shipping</strong><small>On orders over $500</small></div></div>
+          <div class="perk"><span class="ic" id="ic2"></span><div><strong>Easy Returns</strong><small>Within 30 days</small></div></div>
+          <div class="perk"><span class="ic" id="ic3"></span><div><strong>Secure Payment</strong><small>100% safe</small></div></div>
+          <div class="perk"><span class="ic" id="ic4"></span><div><strong>24/7 Support</strong><small>Always here for you</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section reveal">
+      <div class="container">
+        <div class="row-head"><h2>Shop By Category</h2><a href="shop.html">View all &rarr;</a></div>
+        <div class="cat-grid">
+          <a class="cat-card" href="shop.html?q=sofa"><img src="assets/images/cat-sofas.jpg" alt="Sofas"><span>Sofas</span></a>
+          <a class="cat-card" href="shop.html?cat=Dining"><img src="assets/images/cat-dining.jpg" alt="Dining"><span>Dining</span></a>
+          <a class="cat-card" href="shop.html?cat=Bedroom"><img src="assets/images/cat-bedroom.jpg" alt="Bedroom"><span>Bedroom</span></a>
+          <a class="cat-card" href="shop.html?q=storage"><img src="assets/images/cat-storage.jpg" alt="Storage"><span>Storage</span></a>
+          <a class="cat-card" href="shop.html?q=lamp"><img src="assets/images/cat-lighting.jpg" alt="Lighting"><span>Lighting</span></a>
+          <a class="cat-card" href="shop.html?cat=Decor"><img src="assets/images/cat-decor.jpg" alt="Decor"><span>Decor</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured -->
+    <section class="section reveal" id="featured" style="padding-top:20px">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Products</h2>
+          <p>Handpicked for a better living experience.</p>
+        </div>
+        <div class="tabs" id="featuredTabs">
+          <button class="tab active" data-cat="All">All</button>
+          <button class="tab" data-cat="Living Room">Living Room</button>
+          <button class="tab" data-cat="Bedroom">Bedroom</button>
+          <button class="tab" data-cat="Dining">Dining</button>
+          <button class="tab" data-cat="Decor">Decor</button>
+        </div>
+        <div class="product-grid" id="featuredGrid"></div>
+      </div>
+    </section>
+
+    <!-- Offer banner -->
+    <section class="reveal">
+      <div class="container">
+        <div class="promo">
+          <div class="promo-text">
+            <span class="eyebrow">Limited time offer</span>
+            <h2>Get 20% OFF on selected products</h2>
+            <p>Give your home a fresh and stylish upgrade.</p>
+            <a href="shop.html" class="btn btn-accent">Grab the Deal</a>
+          </div>
+          <div class="promo-img"><img src="assets/images/banner-offer.jpg" alt="Yellow armchair"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose us -->
+    <!-- <section class="section reveal">
+      <div class="container">
+        <div class="section-head">
+          <h2>Why Choose YourRoomie</h2>
+          <p>More than furniture. We help you live better.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-card"><div class="ic" id="w1"></div><h3>Premium Quality</h3><p>Built to last with solid, carefully chosen materials.</p></div>
+          <div class="why-card"><div class="ic" id="w2"></div><h3>Modern Designs</h3><p>Trendy styles that fit every kind of space.</p></div>
+          <div class="why-card"><div class="ic" id="w3"></div><h3>Affordable Price</h3><p>Good-looking furniture that respects your budget.</p></div>
+          <div class="why-card"><div class="ic" id="w4"></div><h3>Customer First</h3><p>Your happiness is our priority, always.</p></div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Design banner -->
+    <section class="reveal">
+      <div class="container">
+        <div class="promo reverse">
+          <div class="promo-img"><img src="assets/images/banner-design.jpg" alt="Dining room"></div>
+          <div class="promo-text">
+            <span class="eyebrow">New collection</span>
+            <h2>Design Your Dream Space Today</h2>
+            <p>Furniture that turns houses into beautiful homes.</p>
+            <a href="shop.html" class="btn btn-accent">Explore Collection</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deals -->
+    <section class="section reveal" id="deals">
+      <div class="container">
+        <div class="deal-head">
+          <h2>Best Furniture Deals</h2>
+          <div class="countdown">
+            Offer ends in
+            <div class="time-box"><b id="cd-d">00</b><small>Days</small></div>
+            <div class="time-box"><b id="cd-h">00</b><small>Hours</small></div>
+            <div class="time-box"><b id="cd-m">00</b><small>Mins</small></div>
+            <div class="time-box"><b id="cd-s">00</b><small>Secs</small></div>
+          </div>
+        </div>
+        <div class="product-grid four" id="dealsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <!-- <section class="reveal">
+      <div class="container">
+        <div class="testimonials">
+          <div class="section-head" style="margin-bottom:0">
+            <h2>What Our Customers Say</h2>
+            <p>Trusted by happy homeowners.</p>
+          </div>
+          <div class="t-slider" id="tSliderWrap">
+            <button class="t-nav prev" id="tPrev" aria-label="Previous">&#8249;</button>
+            <div id="tSlider"></div>
+            <button class="t-nav next" id="tNext" aria-label="Next">&#8250;</button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Inspiration -->
+    <section class="section reveal" id="inspiration">
+      <div class="container">
+        <div class="row-head"><h2>Home Inspiration</h2><a href="#">View all &rarr;</a></div>
+        <div class="blog-grid" id="blogGrid"></div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="reveal">
+      <div class="container">
+        <div class="newsletter">
+          <div>
+            <h3>Get updates &amp; special offers</h3>
+            <p>Subscribe now and never miss a deal.</p>
+          </div>
+          <form class="news-form" id="newsForm" novalidate>
+            <input type="email" id="newsEmail" placeholder="Enter your email address" aria-label="Email">
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="form-msg" id="newsMsg"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // small icons for the perks bar and the "why choose us" cards
+    const put = (id, name) => { document.getElementById(id).innerHTML = icons[name]; };
+    put("ic1", "truck"); put("ic2", "refresh"); put("ic3", "card"); put("ic4", "support");
+    put("w1", "star"); put("w2", "sofa"); put("w3", "tag"); put("w4", "heart");
+  </script>
+</body>
+</html>
